@@ -1,5 +1,5 @@
 import pytest
-from src import app
+from src import palindrome
 
 def test_is_palindrome_true():
     assert app.is_palindrome("A man, a plan, a canal: Panama") is True
