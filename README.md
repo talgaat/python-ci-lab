@@ -1,11 +1,11 @@
 # Python CI Lab
 
-Простая проверка палиндрома с автоматическим тестированием через GitHub Actions.
+Проверка палиндрома с CI.
 
 ![CI](https://github.com/talgaat/python-ci-lab/actions/workflows/ci.yml/badge.svg)
 
-## Запуск локально
+## Запуск
 
 ```bash
 pip install -r requirements.txt
-pytest
+python -m pytest tests -v
